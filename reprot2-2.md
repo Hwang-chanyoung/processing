@@ -9,7 +9,7 @@ int i, dir=1, sp=1;
 void draw() {
     fill(0);
     background(128,128,128);
-    text("안동대 컴공 사랑합니다",50,i);
+    text("안동대 컴공 심재창 교수님 사랑합니다",50,i);
     if(i>width)
         dir=-1;
     if(i<0)

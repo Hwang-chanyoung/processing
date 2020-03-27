@@ -2,14 +2,14 @@
 PFont f;
 void setup(){
     size(1500,700);
-    f = createFont("±¼¸²",128);
+    f = createFont("êµ´ë¦¼",128);
     textFont(f);
 }
 int i, dir=1, sp=1;
 void draw() {
     fill(0);
     background(128,128,128);
-    text("¾Èµ¿´ë ÄÄ°ø »ç¶ûÇÕ´Ï´Ù",50,i);
+    text("ì•ˆë™ëŒ€ ì»´ê³µ ì‚¬ëž‘í•©ë‹ˆë‹¤",50,i);
     if(i>width)
         dir=-1;
     if(i<0)

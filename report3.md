@@ -1,3 +1,4 @@
+<pre><code>
 Ball[] balls =  { 
   new Ball(100, 400, 20), 
   new Ball(700, 400, 80) 
@@ -136,3 +137,4 @@ class Ball {
     ellipse(position.x, position.y, radius*2, radius*2);
   }
 }
+</code></pre>
